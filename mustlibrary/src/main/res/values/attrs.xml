@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!--状态布局自定义属性-->
     <declare-styleable name="LayoutStatus">
         <attr name="loadingProgressBarWidth" format="dimension" />
         <attr name="loadingProgressBarHeight" format="dimension" />
@@ -24,6 +25,11 @@
         <attr name="errorButtonTextColor" format="color" />
         <attr name="errorButtonBackgroundColor" format="color" />
         <attr name="errorBackgroundColor" format="color" />
+    </declare-styleable>
+    
+    <!--限制edittext自定义属性-->
+    <declare-styleable name="RestrictText">
+        <attr name="length" format="integer"/>
     </declare-styleable>
 
 </resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.must.base.widget.text.RestrictEditText
+        android:id="@+id/ll_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:length="10"
+        android:hint="不能输入表情，限制长度为10"/>
+
+    <TextView
+        android:id="@+id/ll_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="100/200"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ll_edit"/>
+</RelativeLayout>
